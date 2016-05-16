@@ -1,0 +1,34 @@
+<?php
+if(!empty($_POST['pseudo']))
+{
+// Connection à la base de donnée
+mysql_connect("localhost", "root", "");
+mysql_select_db("projet");
+
+
+
+
+if($passe == $passe2)
+{
+
+}
+else
+{
+echo 'echec lors de la confirmation du mot de passe';
+}
+}
+
+<?php
+
+$pseudo = mysql_real_escape_string(htmlspecialchars($_POST['pseudo']));
+
+
+
+?>
+
+<form method="post">
+<label>Nom de votre equipe: <input type="text" name="pseudo"/></label><br/>
+<label>Mot de passe: <input type="password" name="passe"/></label><br/>
+<label>Confirmation du mot de passe: <input type="password" name="passe2"/></label><br/>
+<input type="submit" value="passer a l'insertion de joueurs"/>
+</form>

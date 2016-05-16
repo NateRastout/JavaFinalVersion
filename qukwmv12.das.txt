@@ -1,0 +1,20 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    JavaProjectIG3/.classpath
+#	deleted:    JavaProjectIG3/.project
+#	deleted:    JavaProjectIG3/.settings/org.eclipse.jdt.core.prefs
+#	deleted:    JavaProjectIG3/bin/HighScore1.class
+#	deleted:    JavaProjectIG3/bin/TestHighScore1.class
+#	deleted:    JavaProjectIG3/scores/src/HighScore1.java
+#	deleted:    JavaProjectIG3/scores/src/TestHighScore1.java
+#	new file:   projet/Rapport_projet.docx
+#	new file:   projet/equipe.html
+#	new file:   projet/inscription.html
+#	new file:   projet/projetweb.html
+#
+
